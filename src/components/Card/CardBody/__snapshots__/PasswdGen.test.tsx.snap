@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PasswdGen.tsx snapshot should match snapshot 1`] = `
+<div>
+  <section
+    class="passwd-gen"
+  >
+    <p
+      class="passwd-gen__title"
+    >
+      Password:
+    </p>
+    <p
+      class="passwd-gen__result"
+    />
+    <section
+      class="passwd-gen__options-container"
+    >
+      <p
+        class="passwd-gen__subtitle"
+      >
+        Options:
+      </p>
+      <label
+        for="passwd-gen__min-char"
+      >
+        Minimum Characters
+      </label>
+      <input
+        class="passwd-gen__min-char"
+        max="100"
+        min="0"
+        type="number"
+        value="6"
+      />
+      <label
+        for="passwd-gen__max-char"
+      >
+        Maximum Characters
+      </label>
+      <input
+        class="passwd-gen__max-char"
+        max="100"
+        min="0"
+        type="number"
+        value="12"
+      />
+      <div
+        class="checkbox"
+      >
+        <input
+          checked=""
+          class="checkbox__input"
+          name="L"
+          type="checkbox"
+        />
+        <label
+          for="checkbox__label"
+        >
+          Lower case
+        </label>
+      </div>
+      <div
+        class="checkbox"
+      >
+        <input
+          checked=""
+          class="checkbox__input"
+          name="U"
+          type="checkbox"
+        />
+        <label
+          for="checkbox__label"
+        >
+          Upper case
+        </label>
+      </div>
+      <div
+        class="checkbox"
+      >
+        <input
+          checked=""
+          class="checkbox__input"
+          name="N"
+          type="checkbox"
+        />
+        <label
+          for="checkbox__label"
+        >
+          Number
+        </label>
+      </div>
+      <div
+        class="checkbox"
+      >
+        <input
+          checked=""
+          class="checkbox__input"
+          name="S"
+          type="checkbox"
+        />
+        <label
+          for="checkbox__label"
+        >
+          Special Characters
+        </label>
+      </div>
+    </section>
+    <section
+      class="passwd-gen__action-container"
+    >
+      <button>
+        Clear
+      </button>
+      <button>
+        Generate
+      </button>
+    </section>
+  </section>
+</div>
+`;
